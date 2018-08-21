@@ -1,0 +1,1 @@
+This is the java training while I started learning automation along with manual testing job.
