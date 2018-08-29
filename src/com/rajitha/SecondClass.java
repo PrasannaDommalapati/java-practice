@@ -7,6 +7,7 @@ public class SecondClass {
 
     private static String name;
 
+
     //<Access Specifier> class ClassName  {}
 
     /**
@@ -24,7 +25,7 @@ public class SecondClass {
      * <access specifier> dataType variableName, variableName2, variableName3;
      */
 
-    public static void main(String args[]) {
+    public static void  main (String args []){
 
         SecondClass sc = new SecondClass();
 
@@ -42,7 +43,7 @@ public class SecondClass {
         System.out.println(k);
         System.out.println(l);
         System.out.println(m);
-        sc.methodOne("cool"); //if want to use a non static method in a static method you can use only with object
+        sc.methodOne("Automation"); //if want to use a non static method in a static method you can use only with object
 
     }
 
@@ -64,5 +65,6 @@ public class SecondClass {
         private double weight;
         private String dob;
     }
+
 
 }
