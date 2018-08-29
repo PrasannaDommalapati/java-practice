@@ -2,6 +2,11 @@ package com.rajitha;
 
 public class SecondClass {
 
+    private final int MAX = 10;
+    final double PI = 3.14;
+
+    private static String name;
+
     //<Access Specifier> class ClassName  {}
 
     /**
@@ -45,9 +50,19 @@ public class SecondClass {
     //methodName(params, params); //calling a method
 
     public void methodOne(String name) {
+        int z= 14;
 
         System.out.println("I am Method one:" +name);
 
+    }
+
+    class Test {
+
+        protected String name;
+
+        private int age;
+        private double weight;
+        private String dob;
     }
 
 }
