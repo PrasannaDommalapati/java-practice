@@ -1,13 +1,22 @@
 package com.rajitha;
 
 public class IfElseIfCondition {
+
     public static void main(String args[]){
-        int i=900;
-        int j=300;
 
-        if(i==j){
+        int i = 90;
+        int j = 900;
 
-            System.out.println("This is True");
+        String str1 = "prasanna";
+        String str2 = "kumar";
+
+        if(str1.equals(str2)) {
+            System.out.println("strings compareed are True");
+        }
+
+        if(i == j){ //== is a int comparing oparator
+
+            System.out.println("i = j is True");
 
         }else if(j<i){
 
